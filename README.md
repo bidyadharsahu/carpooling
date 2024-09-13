@@ -8,5 +8,6 @@
 6. truffle init
 7. truffle compile //if you get any ganache error then install ganache globally by running "npm install -g ganache"
 8. truffle develop  //THIS STEP IS IMPORTANT. IT IS NOT THERE IN CHATGPT TUTORIAL. Keep this terminal open. Don't close it
-9. Change the port in truffle-config.js to ganache port --> 9545
-10. truffle migrate --network development  //run it in a separate terminal. Deployment will happen here. You can run it multiple times to append multiple blocks
+   This step is mentioned in https://www.freecodecamp.org/news/getting-started-with-truffle/
+10. Change the port in truffle-config.js to ganache port --> 9545
+11. truffle migrate --network development  //run it in a separate terminal. Deployment will happen here. You can run it multiple times to append multiple blocks
